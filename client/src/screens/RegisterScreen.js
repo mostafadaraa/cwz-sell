@@ -29,7 +29,7 @@ function RegisterScreen(props) {
             <h1>Register</h1>
             <form onSubmit={handleSubmit}>
                 <Input id="username" handleChange={handleChange} value={data.username} label="Username" />
-                <Input type="password" id="password" handleChange={handleChange} value={data.value} label="Password" />
+                <Input type="password" id="password" handleChange={handleChange} value={data.password} label="Password" />
                 <button type="submit" className="btn btn-success">Submit</button>
             </form>
         </div>
